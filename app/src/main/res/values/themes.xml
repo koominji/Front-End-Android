@@ -19,5 +19,7 @@
 
         <!-- Status bar color. -->
         <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="android:windowFullscreen">true</item>
     </style>
 </resources>
