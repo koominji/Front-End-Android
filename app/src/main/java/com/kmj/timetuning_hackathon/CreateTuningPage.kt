@@ -18,5 +18,7 @@ class CreateTuningPage : AppCompatActivity() {
             startActivity(intent)
         }
 
+        setContentView(R.layout.activity_create_tuning_page)
+
     }
 }

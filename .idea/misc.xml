@@ -19,6 +19,16 @@
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/activity_create_tuning_page.xml" value="0.23489583333333333" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/create_selected_date_rv_item.xml" value="0.24947916666666667" />
+        <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.1721014492753623" />
+        <entry key="app/src/main/res/layout/activity_create_tuning_page.xml" value="0.1992619926199262" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/create_selected_date_rv_item.xml" value="0.286231884057971" />
+        <entry key="app/src/main/res/layout/fragment_my_page.xml" value="0.10208333333333333" />
+        <entry key="app/src/main/res/layout/fragment_mypage.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_schedule_check.xml" value="0.10208333333333333" />
+        <entry key="app/src/main/res/layout/fragment_schedulecheck.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_updateplan.xml" value="0.335" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.25104166666666666" />
       </map>
     </option>
   </component>
