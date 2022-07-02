@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/calendar_select_complete_btn.xml" value="0.13177083333333334" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/color_item_five.xml" value="0.265625" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/color_item_four.xml" value="0.265625" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/color_item_three.xml" value="0.265625" />
@@ -11,6 +12,7 @@
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/create_tunning_item.xml" value="0.265625" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/oval_shape_btn.xml" value="0.265625" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/round_bottom_view.xml" value="0.14270833333333333" />
+        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/round_shape_img.xml" value="0.13177083333333334" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/round_top_calendar.xml" value="0.14270833333333333" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/select_color_background.xml" value="0.265625" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/activity_calendar.xml" value="0.23489583333333333" />

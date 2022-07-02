@@ -8,6 +8,9 @@ class CalendarActivity : AppCompatActivity() {
     lateinit var binding:ActivityCalendarBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_calendar)
+        binding = ActivityCalendarBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+
     }
 }
