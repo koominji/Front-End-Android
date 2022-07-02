@@ -31,7 +31,7 @@ class UpdatePlanFragment : Fragment() {
         plan_plus = view.findViewById(R.id.plan_plus)
 
         plan_plus.setOnClickListener {
-            val intent = Intent(getActivity(), CalendarActivity::class.java)
+            val intent = Intent(context, CreateTuningPage::class.java)
             startActivity(intent)
         }
     }
