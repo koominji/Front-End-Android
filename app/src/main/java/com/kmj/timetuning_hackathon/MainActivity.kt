@@ -27,6 +27,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // 스플래쉬 화면 설정
+        setTheme(R.style.Theme_TimeTuning_hackathon)
+
         setContentView(R.layout.activity_main)
 
 

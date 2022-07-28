@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/mainBackgroundColor"
     tools:context=".UpdatePlanFragment">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="아직 조율중인 일정이 없습니다."
-        android:textColor="#D4DFFF"
-        android:layout_gravity="center"
-        android:textSize="30sp"/>
-
-
-
-
-
-
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -63,8 +49,6 @@
             app:layout_constraintTop_toTopOf="parent" />
 
 
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
@@ -80,22 +64,67 @@
         app:layout_constraintTop_toBottomOf="@id/plan_top_bar"
         android:shape="rectangle"/>-->
 
-    <Button
-        android:id="@+id/plan_plus"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginStart="30dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="+"
-        android:textColor="@color/mainLineColor"
-        android:textSize="25sp" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/plan_top_bar">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/plan_top_bar">
 
 
+                <Button
+                    android:id="@+id/plan_plus"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="30dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:elevation="5dp"
+                    android:text="+"
+                    android:textColor="@color/mainLineColor"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/updateplan_schedule_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="20dp"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/plan_plus"
+                    tools:listitem="@layout/schedule_list_rv_item" />
 
 
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
 
+        </ScrollView>
 
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/updateplan_null_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="아직 조율중인\n일정이 없습니다."
+        android:textColor="#D4DFFF"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

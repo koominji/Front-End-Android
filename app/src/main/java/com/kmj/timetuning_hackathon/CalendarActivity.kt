@@ -5,7 +5,7 @@ import android.os.Bundle
 import com.kmj.timetuning_hackathon.databinding.ActivityCalendarBinding
 
 class CalendarActivity : AppCompatActivity() {
-    lateinit var binding:ActivityCalendarBinding
+    lateinit var binding: ActivityCalendarBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityCalendarBinding.inflate(layoutInflater)
