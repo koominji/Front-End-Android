@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.kmj.timetuning_hackathon.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_schedulecheck.*
 import kotlinx.android.synthetic.main.fragment_updateplan.*
 
 
@@ -18,6 +19,7 @@ import kotlinx.android.synthetic.main.fragment_updateplan.*
 class MainActivity : AppCompatActivity() {
 
     // lateinit var binding: ActivityMainBinding
+    private lateinit var update_btn: Button
 
     private val fl: FrameLayout by lazy {
         findViewById(R.id.fl_container)
@@ -34,6 +36,15 @@ class MainActivity : AppCompatActivity() {
 
         val main_bnv = findViewById<BottomNavigationView>(R.id.main_bnv)
 
+
+        //update_btn = fragment_schedulecheck.findViewById(R.id.btn_update_plan_button)
+
+
+//        update_btn.setOnClickListener {
+//            changeFragment(
+//                ScheduleCheckAddDeleteFragment()
+//            )
+//        }
         main_bnv.setOnItemSelectedListener { item ->
             changeFragment(
                 when (item.itemId) {
@@ -72,7 +83,29 @@ class MainActivity : AppCompatActivity() {
             .beginTransaction()
             .replace(R.id.fl_container, fragment)
             .commit()
+
+
+
     }
+
+
+//   private fun changeFragmentadd(index: Int){
+//        when(index){
+//            1 -> {
+//                supportFragmentManager
+//                    .beginTransaction()
+//                    .replace(R.id.fragment_schedulecheck, )
+//                    .commit()
+//            }
+//
+//            2 -> {
+//                supportFragmentManager
+//                    .beginTransaction()
+//                    .replace(R.id.fl_container, fragment_schedulecheck_add_delete)
+//                    .commit()
+//            }
+//        }
+//    }
 
 
 
