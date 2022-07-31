@@ -8,11 +8,13 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 
 
-@Database(entities = [NewSchedule::class],version = 1)
+@Database(entities = [NewSchedule::class, User::class],version = 1)
 @TypeConverters(DateListConverters::class)
 
 abstract class NewScheduleDatabase : RoomDatabase() {
     abstract fun newScheduleDao():NewScheduleDao
+    abstract fun UserDao(): UserDao
+
 
     companion object{
         private var instance : NewScheduleDatabase? = null
