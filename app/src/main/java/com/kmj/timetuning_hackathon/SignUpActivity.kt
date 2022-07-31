@@ -2,6 +2,7 @@ package com.kmj.timetuning_hackathon
 
 import android.app.Activity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.kmj.timetuning_hackathon.databinding.ActivitySignupBinding
@@ -14,6 +15,14 @@ class SignUpActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         binding = ActivitySignupBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
+        //가입완료버튼 눌렀을시
+        binding.signUpFinshBtn.setOnClickListener {
+            signUp()// 해당 함수로 회원가입진행
+
+            finish()// 회원가입진행 끝
+        }
 
     }
 
@@ -40,7 +49,11 @@ class SignUpActivity : AppCompatActivity(){
         }
 
         //데이터베이스 저장
-        //val userDB =
+        val userDB = NewScheduleDatabase.getInstance(this)!!
+        userDB.UserDao().insert(getUser())
+
+        val user = userDB.UserDao().getUsers()
+        Log.d("SIGNUPACT", user.toString())
     }
 
 

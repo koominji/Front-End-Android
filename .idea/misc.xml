@@ -3,39 +3,42 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/calendar_select_complete_btn.xml" value="0.13177083333333334" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/color_item_five.xml" value="0.265625" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/color_item_four.xml" value="0.265625" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/color_item_one.xml" value="0.12447916666666667" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/color_item_three.xml" value="0.265625" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/color_item_two.xml" value="0.265625" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/create_tuning_item.xml" value="0.14270833333333333" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/create_tunning_item.xml" value="0.265625" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/oval_shape_btn.xml" value="0.265625" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/plan_info_bottom_end_btn.xml" value="0.24814814814814815" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/plan_info_bottom_input_btn.xml" value="0.24814814814814815" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/round_bottom_view.xml" value="0.14270833333333333" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/round_shape_img.xml" value="0.13177083333333334" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/round_top_calendar.xml" value="0.14270833333333333" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/schedule_rv_item_circle.xml" value="0.14270833333333333" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/schedule_rv_item_round_corner.xml" value="0.14270833333333333" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/schedule_rv_left_rounded.xml" value="0.14270833333333333" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/select_color_background.xml" value="0.265625" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/drawable/splash.xml" value="0.11614583333333334" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/activity_calendar.xml" value="0.23489583333333333" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/activity_create_tuning_page.xml" value="0.2" />
+        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/activity_create_tuning_page.xml" value="0.23489583333333333" />
         <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/activity_plan_info.xml" value="0.24947916666666667" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/create_selected_date_rv_item.xml" value="0.4" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/fragment_mypage.xml" value="0.1265625" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/fragment_plan_info.xml" value="0.21614583333333334" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/fragment_schedulecheck.xml" value="0.1265625" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/fragment_updateplan.xml" value="0.176" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/plan_info_dialog.xml" value="0.264" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/schedule_list_rv_item.xml" value="0.264" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12395833333333334" />
-        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.12395833333333334" />
+        <entry key="..\:/TimeTuning_hackathon/app/src/main/res/layout/create_selected_date_rv_item.xml" value="0.24947916666666667" />
+        <entry key="app/src/main/res/drawable/button_background_color.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/color_item_four.xml" value="0.1315" />
+        <entry key="app/src/main/res/drawable/color_item_one.xml" value="0.1315" />
+        <entry key="app/src/main/res/drawable/color_item_three.xml" value="0.1315" />
+        <entry key="app/src/main/res/drawable/edittext_rounded_corner_rectangle.xml" value="0.1315" />
+        <entry key="app/src/main/res/drawable/round_bottom_view.xml" value="0.1315" />
+        <entry key="app/src/main/res/drawable/round_top_calendar.xml" value="0.1315" />
+        <entry key="app/src/main/res/drawable/select_color_background.xml" value="0.1315" />
+        <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.1721014492753623" />
+        <entry key="app/src/main/res/layout/activity_create_tuning_page.xml" value="0.1992619926199262" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_schedulecheck_add_delete.xml" value="0.1539855072463768" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.23029937744140627" />
+        <entry key="app/src/main/res/layout/create_selected_date_rv_item.xml" value="0.286231884057971" />
+        <entry key="app/src/main/res/layout/fragment_my_page.xml" value="0.10208333333333333" />
+        <entry key="app/src/main/res/layout/fragment_mypage.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_schedule_check.xml" value="0.10208333333333333" />
+        <entry key="app/src/main/res/layout/fragment_schedulecheck.xml" value="0.2742382271468144" />
+        <entry key="app/src/main/res/layout/fragment_schedulecheck_add_delete.xml" value="0.21557971014492755" />
+        <entry key="app/src/main/res/layout/fragment_updateplan.xml" value="0.2742382271468144" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.25104166666666666" />
       </map>
     </option>
   </component>
