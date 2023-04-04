@@ -1,7 +1,9 @@
 # TIME-TUNNING/FRONT-END
 ## 👇 "타임튜닝"이 뭔가요? 서비스 소개 보러가기! 👇 
+### https://icy-existence-5b7.notion.site/281659ecd9f4459eb6622bde36943b1d
+## 👇 안드로이드 프론트 story board 보러가기 👇 
+### https://www.figma.com/file/e55GN5j7VdDfylwGNF04x9/StoryBoard_Android?t=wFHeqxVu1b6DweWK-6
 <hr/>
-- https://icy-existence-5b7.notion.site/281659ecd9f4459eb6622bde36943b1d
-![배너_대지 1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e7c15bb3-520a-4449-8cfd-03ef2f5b340b/%EB%B0%B0%EB%84%88_%EB%8C%80%EC%A7%80_1.png)
+![배너_대지 1](https://user-images.githubusercontent.com/68270424/229691396-7dac6a53-2886-4a1e-9d43-5582ab360824.png)
 
 
